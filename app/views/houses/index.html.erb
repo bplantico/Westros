@@ -1,3 +1,6 @@
-<% @houses.each do |house| %>
+<%= @house_facade.house_count %>
+<%= @house_facade.page_number %>
+
+<% @house_facade.houses.each do |house| %>
 <%= house.name %>
 <% end %>
